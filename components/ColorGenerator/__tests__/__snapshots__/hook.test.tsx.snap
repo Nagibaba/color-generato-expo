@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorGenerator hook matches snapshot 1`] = `
+{
+  "color": "white",
+  "generateColor": [Function],
+}
+`;
