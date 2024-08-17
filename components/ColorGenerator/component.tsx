@@ -1,6 +1,4 @@
-import { Stack } from 'expo-router';
-import { useState } from 'react';
-import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 import useContainer from './hook';
 import styles from './styles';
 

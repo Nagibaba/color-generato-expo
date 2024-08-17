@@ -1,12 +1,13 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 
 const useContainer = () => {
   const [color, setColor] = useState('white');
-  const generateColor = () => {
+
+  const generateColor = useCallback(() => {
     const colorString = Math.random().toString(16);
     const color = '#' + colorString.substring(colorString.length - 6);
     setColor(color);
-  };
+  }, []);
 
   return { color, generateColor };
 };

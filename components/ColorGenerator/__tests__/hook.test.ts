@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { render, screen, fireEvent, act } from '@testing-library/react-native';
+import { act } from '@testing-library/react-native';
 import { renderHook } from '@testing-library/react-hooks';
 
 import useContainer from '../hook';
